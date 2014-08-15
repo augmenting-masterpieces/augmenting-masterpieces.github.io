@@ -1,0 +1,149 @@
+{"posts": [{
+  "title": "About Coding the Humanities",
+  "posted": "2013-06-24T21:57:27.000Z",
+  "authors": [
+    "Sabrina Sauer"
+  ],
+  "images": [
+    {
+      "url": "./images/coding.jpg"
+    }
+  ],
+  "tags": [
+    "about"
+  ],
+  "content": "# About Coding the Humanities\n\nAt Coding the Humanities, we empower researchers to develop their own digital tools to perform research in the humanities. The initiative is based in Amsterdam, and was founded by Jan Hein Hoogstad and Marijn Koolen in April 2013. Early to 2014, Sabrina Sauer joined the core team. Jan Hein, Marijn and Sabrina all work as assistant professor at the University of Amsterdam (UvA).\n\nAt present, the Coding the Humanities curriculum involves an MA course in the Cultural Analysis program (UvA), a BA course set up as part of a newly developed Digital Humanities minor (a joint effort of the UvA and the Vrije Universiteit), and a “crash course” for university employees.\n\nWe cooperate with a number of public organisations and private companies (few examples?). Besides the sharing and circulation of knowledge, the cooperation between companies within both private and public sector provides added value to both; private and public partners are given fast access to research – to test and discover new ideas and products – while researchers retain access to current business and policy concerns.\n\nAgility and societal relevance – in the form of social innovation – are key to Coding the Humanities. We critically reflect on our own tools and practices, and work towards establishing a group of autonomous researchers both within and outside of the sphere of the university.\n"
+},{
+  "title": "Blurred Lines",
+  "posted": "2014-06-24T21:57:27.000Z",
+  "authors": [
+    "Charlotte van Oostrum"
+  ],
+  "images": [
+    {
+      "url": "./images/blurred-lines.jpg"
+    },
+    {
+      "url": "./images/blurred-lines.jpg"
+    }
+  ],
+  "tags": [
+    "article"
+  ],
+  "content": "# Blurred Lines: Literary Perspectives on Programming Languages\n\nI remember the day when I drew that first line on the screen of my computer using a command something like < line (x,y) >. I clicked \"run\" and indeed a line appeared. I had interacted with a machine that I'd formerly though of as both an enabled typewriter and a black box at the same time. I learned that my computer and I were capable of much more than text processing. \n\nWhen I clicked run that day, something clicked within me too: I realised that programming and markup languages are just another type of language, only slightly different from those I'd been using my entire life. Treating programming languages as languages made them accessible to me. Yet, computer languages seemed much more able to eliminate ambiguity and appeared to be always performative.\n\n## The Story World of Programming Languages\nPerformatives, and its counterpart constatives, is a distinction made by John Austin in his 1962 work *How to Do Things with Words*. Constatives, Austin argues, are locutions (utterances) that say something about a state of affairs and can be either true or false. Performatives are locutions that accomplish something. \n\nLiterature (neglected by Austin) can be considered a prime example of performative language: it brings into being a new reality–characters, places, actions. Programming languages do the same. Javascript creates a space (a world) where *var a = 5* changes the meaning of *a* from nothing or something else to *5* and Ruby allows for a space in which objects are made of text. These variables and objects (actors) play a role in the further development (actions) of the program (the story). \n\nOf interest here specifically is a certain type of performatives: the explicit performative. The explicit performative is an act of speech (the overarching theory of performatives, constatives, locutions, and so on is called speech-act theory) that brings about a change in the state of reality. For example the sentence \"I hereby pronounce you husband and wife.\" It needs to be pronounced by a certain institution and under certain conditions. Yet, if the context is right, a set of words changes reality. Methods–a programming procedure that accesses an object in object oriented programming languages–can utter the programming equivalent of \"I hereby pronounce you to …\" and change the state or function of the object altogether.\n\nA closer look turns out that not every locution in programming languages is a performative. Booleans–formulas that are return either a true or false–are a great example of a constative (a locution that says something about a state of affairs and can be either true or false). The story world of programming languages turns out to be as much a linguistic treasure as literature and human language are.\n\n## The Humanness of Speech\n\nIn literary criticism, ever since William Epson published his *Seven Types of Ambiguity* in 1930, ambiguity is considered a poetic device. If used properly, ambiguity adds to the complexity of the text as well as the experience of the reader. Poetry and literature turn ambiguity into a sign of quality rather than an flaw, as it was and is still often regarded in human communication.\n\nIn programming languages, as in human language, ambiguity appears as something that should be avoided–a typo or simply omitting a semi-colon at the end of a sentence quickly results in an error message. It seems that if you want a software program to run properly, everything to the tiniest detail has to be in control. However, second look at programming languages reveals that ambiguity is inherent in programming languages as in human language. While the so-called [diamond problem](http://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem), causes programmers to seek ways to solve or avoid its ambiguity, game programmers are utterly comfortable with evoking spaces where ambiguity runs rampant.  \n\nWhere computer programs become more and more complex and try to build increasingly complex forms of artificial intelligence, ambiguity seems to be more and more a prerequisite rather than an inconvenience. Human communication, despite how much we’d want it to, is never free of ambiguity. As literature has taught us, this is its beauty rather than fault. Subsequently, for a program to approach humanness as closely as possible, it has to embrace ambiguity and embrace its possibilities.\n\n### To a Shared Language\nAllowing for ambiguity, however, entails opening up your artificial universe for unexpectedness, uncertainty and the potential of failure. Or as Nishant writes, this act diminishes the amount of control we can exert over these worlds:\n\n>A software program is really a rudimentary representation of reality with many axes of complexity reduced or entirely collapsed. The ability of programming languages to cut through ambiguity is actually a symptom of our own rudimentary understanding of the universe. We think that the ability of programming languages to eliminate ambiguity is a desirable feature (rather than a bug) because as humans we need to tell ourselves that we have some control of our environment.\n\nYet, the simple and deterministic programming culture of today is being replaced by more organic systems. Newer programming languages more closely resemble the way in which natural language works. The more natural the programs running our machines become, the less artificial they’ll feel. And the more room programming languages bear for ambiguity and complexity, the more they’re and our vocabulary to represent reality increases. \n\nAt first, human interaction had to be stripped down to its bare essentials in order for artificial intelligence and computer science to enact humanity in machines. Yet, today we’ve mastered the essentials and can add the complexities to it that make it human. We are ready to step away from software programs as the ideal and controlled versions of reality to machines that allow for complexity and the inevitability of uncertainty. The lines are blurred already. We should get ready for them to disappear. \n\n&mdash; Charlotte van Oostrum ([@cevoostrum](https://www.linkedin.com/in/cevoostrum))\n\n*With thanks to Nishant \"[@Rainypixels](http://rainypixels.com/)\" Kothary, for filling in the gaps in my knowledge of programming languages and being an inspiring and insighful writing partner*\n"
+},{
+  "title": "Bringing Home the House Mouse",
+  "posted": "2014-07-12T21:57:27.000Z",
+  "authors": [
+    "Charlotte van Oostrum",
+    "Sabrina Sauer"
+  ],
+  "images": [
+    {
+      "url": "./images/janwillem.jpg"
+    },
+    {
+      "url": "./images/blurred-lines.jpg"
+    }
+  ],
+  "tags": [
+    "post",
+    "pilot"
+  ],
+  "content": "# Bringing Home the House Mouse\n\nWhat seemed to be a vast period of time has come to and end–or rather, has transitioned into a next phase.This was the last week of what will only be once: the pilot of Coding the Humanities. \n\nThe final week of the pilot began with a discussion with Jan Willem Tulp of Tulp Interactive and Alexandro Mancusi of Weyeser. We talked about what we as a team would want to communicate with our project: which questions do we want to ask, and what do we want to visualise? After discussing this, tasks were divided so each of the smaller groups could really get to finish and complete our project–which we named [\"House Mouse\"]().\n\n## Long Sessions, Long Nights\n\nOn Tuesday, Marijn Koolen gave a lecture about how to deal with different kinds of databases, while Jan Hein Hoogstad lectured about the JavaScript task runner [Grunt](Grunt). The last three days consisted of a lot of hard work, long nights and dinners together. While everyone worked to complete and integrate all the different parts of the project, a small part of the team also prepared a 5-minute presentation about the project. \n\nOn our last Thursday event, the project was proudly presented to our final expert guests, Wolfgang and Wolfgang [sic] from [CastYourArt]() in Vienna. After the presentation, we all enjoyed fresh food and drinks and discussed the next steps for our project.\n\n## Looking Backwards, Looking Forwards\n\nFriday was a day of looking back on the experience of this very intensive month, both as a reflection on what's in the past as building a bridge toward what's next. The students discussed their team evaluation and decided to grade themselves per week and on several aspects–learning, coordination, collaboration, reflection, presentation and product. After a heated discussion, everyone was satisfied with the collective grade. \n\nThe pilot ended with a wonderful BBQ with delicious sausages and bananas filled with pistachio-chocolate. We previewed the short video made about the pilot by Anouk. This won't be the end–our future is in development. \n\nThank you, lab rat! You were our favourite. \n"
+},{
+  "title": "From Building to Testing",
+  "posted": "2014-06-27T20:23:12.000Z",
+  "authors": [
+    "Charlotte van Oostrum",
+    "Marijn Koolen"
+  ],
+  "images": [
+    {
+      "url": "./images/ashley.jpg"
+    },
+    {
+      "url": "./images/nigel.jpg"
+    }
+  ],
+  "tags": [
+    "frontpage"
+  ],
+  "content": "# From Building to Testing\n\nIs it possible to build a viable MVP in 2,5 weeks without any prior programming experience? Yes, it is, the pilot group of Coding the Humanities proved this week.\n\n## Learning the Basics\n\nThe week started with a lecture on JavaScript fundamentals, where the students learned the ins and outs of variables, loops, functions and scope, as well as some tips and tricks on how to debug their code. Jan Hein did a few pair programming sessions with students to demonstrate the importance communication and collaboration in programming. \n\nWith these new skills they could jump the last hurdles of their projects. When we left on Tuesday evening, the hurdles still seemed quite big, yet on Wednesday morning everything suddenly clicked! With the house metaphor project finished, a short video was made to present their first product.\n\n## Testing your Basics\n\nThis week, [Ashley Williams](http://heyashleyashley.com/) of [Bocoup](http://bocoup.com/), an Open Web development group in Boston, joined the Coding the Humanities project for a few workshops about learning programming. Just as the students (and most of the teachers) in the pilot, Ashley comes from a humanities background. The students worked through several assignments with her on test-driven development and modelling [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life).\n\n## To Program is to Master Abstraction\n\nThe weekly open event on Thursday started with a presentation of the project the students had finished earlier in the week, which spontaneously evolved in a long presentation and discussion of their new project which aims to tie the Dutch open government data sets into their previous project exploring the house metaphor.\n\nAfter the break, Ashley Williams talked about abstraction being one of the main hurdles to learning programming. She argued that lower-level languages can be easier to learn because they abstract away fewer things and are more explicit. \n\nOn Friday Lex Slaghuis and Arjan El Fassed of the [Open State Foundation](http://openstate.eu/) presented the many projects they run on hacking open government data.\n"
+},{
+  "title": "When All We Have Is A Hammer",
+  "posted": "2013-12-11T21:57:27.000Z",
+  "authors": [
+    "Jan Hein Hoogstad"
+  ],
+  "images": [
+    {
+      "url": "./images/nails.jpg"
+    }
+  ],
+  "tags": [
+    "article"
+  ],
+  "content": "# When All We Have Is A Hammer\n\nCoding the Humanities is not about technology or even programming. It is all about tools. Software is a blind spot for the humanities. While our discipline is deeply invested in self-reflection, we hardly ever think about the digital tools that we use to produce and disseminate these deep thoughts. As a result, we fail to see the obvious. The applications that facilitate our teaching and research, were not written for us, let alone developed by us. In fact, they are unfit for our needs.\n\nIn our research, we use a wordprocessor for almost everything. This factotum is part of a larger suite of proprietary enterprise applications, which is appropriately named after its intended use context. In an office setting this swiss army knife may be highly effective, but for research purposes it is rather blunt. Our pimped up typewriter does not offer any form of semantic mark up, has no citation management, and discourages collaboration. \n\nIn teaching, the situation is possibly even more dire. While the omnipresent word processor is a mismatch with our research practice, most online teaching platfforms go to the other extreme: they are indistinguishable from it. Or at least its appearance. Their user interfaces exactly mimics the classroom setting. Its conceptual metaphors are sessions, discussions, assignments, etc. This also means, however, that they make little to no effort to actually enhance our practice. Digital tools have the potential to radically change the way scholars teach and students learn. Unfortunately, this promise remains unfulfilled.\n\nEven worse than the inadequacy of the individual research and teaching tools we use, may be the fact that they keep research and teaching completely separated. Of course, it is possible to embed text documents, hyperlinks and presentations in our teaching platforms, but that is about as far as the integration goes. We complain about the ever-increasing disconnect between our teaching and research, but do not realise that our current tools do nothing to help us bridge that gap. \n\nNo matter how bad our workflow is, we do not talk about tools. Humanities' scholar have more important things to discuss. We are interested in content, not in the structures that create it. We thereby selectively ignore most twentieth century theory which should have taught us to focus on the structures that produce knowledge rather than on their results. \n\nHow different is the situation in software development. Programmers shape their work environment until it fits their individual needs. However, this shaping and tweaking does not happen in isolation. It is done in a constant dialogue with the community. Developers fight entire wars over text editors and IDE's (Integrated Development Environments). If they do not like a certain framework or library, they write their own, add missing features, or fork the project. And this process of discussion and deliberation is not limited to the virtual environment. Standing desks, shoes, and dietary regimes are very much part of it. \n\nDeliberate use of tools marks the difference between craftmanship and dumb labor. By solving all problems with their hammers, humanities' scholars reduce all problems to nails. Appropriate tools not only increase efficiency, they also enhance the ability to differentiate between different problems, and enable solutions to problems that have not even been discovered. Practice, not content, drives a field forwards. It is this very insight that motivates Coding the Humanities.\n"
+},{
+  "title": "Making Games from Data",
+  "posted": "2014-06-17T20:23:12.000Z",
+  "authors": [
+    "Charlotte van Oostrum",
+    "Sabrina Sauer"
+  ],
+  "images": [
+    {
+      "url": "./images/federico.jpg"
+    },
+    {
+      "url": "./images/presentation.jpg"
+    }
+  ],
+  "tags": [
+    "posts",
+    "pilot"
+  ],
+  "content": "# Making Games from Data\n\n\"We want to take quantitative data and turn our papers into computer games that convey the theory,\" sounded the conclusion of the last presentation on last week's Coding the Humanities opening event. \n\nBut how can we turn theory into quantitative data? And what do you need to make a computer game? This week, we turned from the smaller group projects of week one to a large, collaborative project and started making a game. \n\n## Translating Data into Different Guises\n\nDuring the first half of the week, Marijn, Jan Hein and Alexandro Mancusi from [Weyeser](http://weyeser.com/) gave introductions to API's, data sets, user stories, Json, Rest, Git and Firebase after which the students explored the tools themselves. \n\nOn Thursday, after a few days of technological immersion, Federico Bonelli of [Trasformatorio](http://www.trasformatorio.net/) reintroduced theory into data science and presented his work and ideas on interdisciplinary, truth and poetic terrorism. He showed how data can be translated and transformed into different guises. \n\n## Presenting Complex Issues\n\nOn Thursday evening, during the weekly open event, the students presented their collective work. They created a visualisation using mock data via Firebase, which they'd collected using a Facebook authentication system, and used words such as \"two way data binding\" without flinching. That's how far they've come already!\n\nAfter the presentation, there was extensive room for feedback. We talked about how you present an issue in a clear manner, without hiding what complex questions this issue brings to the fore when you explore it. \n\n## Pitching your Ideas\n\nFriday started with an impromptu lecture in project management by [Nigel Hamlin](http://nl.linkedin.com/in/nigelhamlin). We worked on practical project management skills and worked on preparing a five minute pitch for the project. Next week, we'll film the pitch and make it available on the website.\n\nWe ended the week with a pair programming session after which the students were invited to do some live coding. And this amazing week ended even better with the amazing Dutch victory at their first World Cup game!\n"
+},{
+  "title": "Project House Mouse",
+  "posted": "2014-07-22T21:57:27.000Z",
+  "authors": [
+    "Roel Bakkum",
+    "Angeliki Chalkia",
+    "Charlie Vielvoye"
+  ],
+  "images": [
+    {
+      "url": "./images/housemouse.jpg"
+    },
+    {
+      "url": "./images/blurred-lines.jpg"
+    }
+  ],
+  "tags": [
+    "post",
+    "pilot"
+  ],
+  "content": "# Project House Mouse\nCoding the Humanities is proud to present their pilot group and their project \"House Mouse\". Despite soaring temperatures and the ongoing World Cup, the group was present every day from early in the morning to late at night and not without result! Without further ado, we give the floor to the class of June, 2014.   \n\n## From Pizza to Polymer\nWe are a group of students from diverse disciplines within the UvA humanities, who came together in the early days of june to follow the pilot [Coding the Humanities](/). Most of us were absolute beginners. A few had some very basic coding skills. Four weeks later, after loads of coffee, conceptualising, frustration, collaboration, pizzas, drinks, polymer elements, javascript workshops, presentations, grunt workshops, pitches, posters (the list could go on and on), the resulting [website](housemouse.codingthehumanities.com) is now our precious project.\n\n## What Does House Mean to You?\nOur main project, called Project House Mouse, is a website that evolves around a typical humanities question: What does house mean to you? Although you may not be aware of it, each one of us has a different connotation to a basic concept like this. It's a seemingly simple question, yet it turns out to be complex to give a simple answer. \n\nOn our [website](housemouse.codingthehumanities.com) the user is asked to answer this question by choosing one of the three images each representing a different type of house. The next step is to choose three images out of six that each represent an object that's closely related to the surroundings of a house. This user input is stored and integrated into the visualisation: a map of Europe that displays what type of house users from European countries chose. The website is built using [Polymer](http://www.polymer-project.org/), a new library that allows developers to write their own custom web components.  \n\nAfter this, the chosen concepts are used to perform a search in a dataset that the Dutch government has made public [openoverheid.org](openoverheid.org). The search looks for more information on these chosen concepts. A statistical table presents the choices correlated with the data from the dataset. The table shows how many working, semi working and broken links are found in the public dataset.\n\nThere's only one question left: what does house mean to you? \n\n## About the Coding the Humanities Pilot\n\nThe Coding the Humanities pilot introduced students from the humanities faculty of the University of Amsterdam to the world of programming. During one month, every working day, students follow an intensive course on HTML, CSS and Javascript. Experts from the industry give lectures and workshops on the basics of web development, programming, project management, and databases. The students work in groups and on collaborative projects.\n\nThe group of students comes from a variety of disciplines within the Humanities, such as Media Studies, European Studies, Philosophy and even Musicology! The goal of the project is to learn how to program in order to have more control over one's own research. Everybody starts out on different levels of coding skills, but through collaboration and pair programming, all students manage to enhance their knowledge. This project isn't just educational. It's also a lot of fun (and frustrating, but that's part of writing code).\n"
+},{
+  "title": "Starting Full Blast",
+  "authors": [
+    "Charlotte van Oostrum"
+  ],
+  "posted": "2014-06-12T20:23:12.000Z",
+  "order": 12,
+  "images": [
+    {
+      "url": "./images/students-window.jpg"
+    },
+    {
+      "url": "./images/launch-event.jpg"
+    }
+  ],
+  "tags": [
+    "post",
+    "pilot"
+  ],
+  "content": "# Starting Full Blast\nAfter a short first meeting of the Coding the Humanities crew on Monday evening in the home-from-home in the pilot space, the actual programme started full blast on Tuesday morning. \n\nAs a short warm up, the students divided into small groups to briefly discuss their favourite websites. One would talk about their site, while the others would note down keywords, an image associated with the story and a slogan. After this, the students translated these stories into a HTML format and added CSS styling. At the end of the day, they presented their results.\n\n## The First Projects\nOn Wednesday morning, the group began the day with a \"stand up\"; in three groups they discussed how they had experienced the first day, was it tough, did they learn much, what issues did they run in to? The assignment for the morning consisted of working on developing webpages, in mock-up, related to three humanities’ themes or topics: \"Power in the museum\", \"Identity and the selfie\" en \"Rhythms as a tool”. \n\nWorking collaboratively, they developed posters, which were presented to the larger group. After the break, each group actually developed the ideas on their posters by creating a page, after which – using github, the pages were shared, so that each could work on the page of another group. The day ended with a lecture about webcomponents.\n\n###What is Data in the Humanities?\nAfter the stand up on Thursday morning, guest speaker Jan Willem Tulp of [Tulp Interactive](http://tulpinteractive.com/) gave a lecture about data visualisation, after which the students worked on the question on what data is in the different humanities; what would you consider to be data, how would you problematize data and how would you be able to translate this into a webcomponent? \n\nUsing an actual project, paper or idea as a starting point, ideas were sketched on posters. The ideas of the students were very diverse; finding a common ground to discuss \"data\", and translating this into a visualization resulted in three designs.\n\n## The First Presentations\nThe day ended with an open event, where visitors and students could listen to short presentations by the Coding the Humanities team, the poster presentations of the students and share a drink and pizza.\n"
+}]}

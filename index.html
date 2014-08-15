@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Augmenting Masterpieces</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="196x196" href="images/touch/chrome-touch-icon-196x196.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <base href="/"></base>
+
+    <!-- build:css styles/components/main.min.css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body ng-cloak ng-controller="AppCtrl as app" ng-app="cth">
+
+    <!-- <header class="site-header">
+
+class="container-fluid" ng-class="{'header-on-screen':app.showHeader}"
+
+
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+              
+              <li ng-click="app.setFilter(tag.filter)" 
+                  ng-repeat="tag in app.tags" 
+                  ng-class="{active: tag.active}">
+                  <a>{{tag.name}}</a>
+              </li>
+
+            </ul>
+        </div>
+      </div>
+    
+    </header> -->
+
+    <main>
+      <div ui-view autoscroll="false"></div>
+    </main>
+
+    <script src="vendor.js"></script>
+    <script src="app.js"></script>
+
+    <!-- build:js scripts/main.min.js -->
+
+    <script>window.viewportUnitsBuggyfill.init();</script>
+
+    <!-- endbuild -->
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
