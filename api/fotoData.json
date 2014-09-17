@@ -557,7 +557,8 @@
 			"visitorCategory": "Cultural Tourist",
 			"transcriptFull": "transcripts/bernard.txt",
 			"photoRange": [109, 154],
-			"missingPhotos": [130, 133, 135]
+			"missingPhotos": [130, 133, 135],
+			"noComment": [132, 136, 139, 140, 142, 143, 144]
 		}
 	]
 }
