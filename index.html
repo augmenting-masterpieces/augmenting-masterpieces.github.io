@@ -32,27 +32,6 @@
   </head>
   <body ng-cloak ng-controller="AppCtrl as app" ng-app="cth">
 
-    <!-- <header class="site-header">
-
-class="container-fluid" ng-class="{'header-on-screen':app.showHeader}"
-
-
-      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-              
-              <li ng-click="app.setFilter(tag.filter)" 
-                  ng-repeat="tag in app.tags" 
-                  ng-class="{active: tag.active}">
-                  <a>{{tag.name}}</a>
-              </li>
-
-            </ul>
-        </div>
-      </div>
-    
-    </header> -->
-
     <main>
       <div ui-view autoscroll="false"></div>
     </main>
