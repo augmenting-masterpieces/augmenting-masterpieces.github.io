@@ -30,11 +30,11 @@
     <!-- endbuild -->
 
   </head>
-  <body ng-cloak ng-controller="AppCtrl as app" ng-app="cth">
+  <body ng-cloak ng-controller="AppCtrl as app" ng-app="augm" data-spy="scroll" data-target=".navbar">
 
-    <main>
-      <div ui-view autoscroll="false"></div>
-    </main>
+    <div ui-view="nav"></div>  
+    <main ui-view="displayorder" class="container-fluid"></main>
+    <footer ui-view="footer"></footer>
 
     <script src="vendor.js"></script>
     <script src="app.js"></script>
