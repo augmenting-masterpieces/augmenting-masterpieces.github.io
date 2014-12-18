@@ -254,7 +254,7 @@ angular.module("../templates/content/assumptions.html", []).run(["$templateCache
     "\n" +
     "\n" +
     "</div>\n" +
-    "<div class=\"col-lg-14 col-lg-offset-1 col-md-14 col-md-offset-1 col-sm-14 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-14 col-lg-offset-1 col-md-14 col-md-offset-1 col-sm-14 col-sm-offset-1 col-xs-24 col-xs-offset-0 hidden-xs\">\n" +
     "	<img class=\"child\" src=\"images/webimages/visitors_aussumptions.jpg\">\n" +
     "</div>\n" +
     "");
@@ -502,7 +502,7 @@ angular.module("../templates/displayorder.html", []).run(["$templateCache", func
     "	<h1 id=\"analyse\"><span>Analyse</span> and <span>Ideate</span> </h1>\n" +
     "</section>\n" +
     "<section ui-view=\"survey\" class=\"row block\"></section>\n" +
-    "<section ui-view=\"masonryviewer\" class=\"row block masonry\"></section>\n" +
+    "<section ui-view=\"masonryviewer\" class=\"row block masonry hidden-xs\"></section>\n" +
     "<section class=\"row block intermezzo proto\">\n" +
     "	<h1 id=\"prototype\"><span>Prototype</span> and <span>Test</span></h1>\n" +
     "</section>\n" +
