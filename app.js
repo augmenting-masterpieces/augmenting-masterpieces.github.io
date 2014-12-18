@@ -146,10 +146,9 @@
 				});
 
 				$(evt.currentTarget).toggleClass("itemClicked");
-
-				$('#photoPiece').packery();
 				$("#transcriptHeader").html(photoData.name);
 				$("#transcriptSnippet").html(photoData.transcriptSnippet);
+				$('#photoPiece').packery();
 	    }
 
 	    function masonryConfig() {
@@ -160,7 +159,7 @@
 					  columnWidth: ".grid-sizer",
 					  itemSelector: ".item",
 					  stamp: ".stamp",
-					  "isOriginTop": false
+					  "isOriginTop": true
 					});
 				});
 	    }
@@ -172,10 +171,8 @@ angular.module('templates-augm', ['../templates/content/about.html', '../templat
 
 angular.module("../templates/content/about.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/about.html",
-    "<div class=\"container-fluid\">\n" +
+    "<div class=\"col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h1>People</h1>\n" +
-    "</div>\n" +
-    "<div class=\"col-lg-10 col-lg-offset-0 col-md-10 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<div class=\"person clearfix\">\n" +
     "		<img src=\"./images/persons/johanna2.jpg\" alt=\"Embedded Researcher UvA -> Rijksmuseum\">\n" +
     "		<p>Johanna Barnbeck</p>\n" +
@@ -198,11 +195,39 @@ angular.module("../templates/content/about.html", []).run(["$templateCache", fun
     "		<p>Robert-Jan Korteschiel</p>\n" +
     "	</div>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-10 col-lg-offset-0 col-md-10 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-24 col-xs-offset-0\" >\n" +
+    "<div class=\"col-lg-9 col-lg-offset-3 col-md-9 col-md-offset-3 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\" >\n" +
+    "	<h1>Contact</h1>\n" +
+    "	<p>Johanna Barnbeck</p>\n" +
+    "	<p>Locatie 13</p>\n" +
+    "	<p>7346HD Amsterdam</p>\n" +
+    "	<p>contact@augmenting-masterpieces.nl</p>\n" +
+    "	<p>telefoonnr: 103-929476296</p>\n" +
+    "	<br>\n" +
+    "	<h1>Mailing list</h1>\n" +
+    "	<!-- Begin MailChimp Signup Form -->\n" +
+    "	<div id=\"mc_embed_signup\">\n" +
+    "		<form action=\"//wix.us3.list-manage.com/subscribe/post?u=441ffe1b780f94da8bfedb43c&amp;id=ec4ca8f48f\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n" +
+    "		    <div id=\"mc_embed_signup_scroll\">\n" +
+    "				<h4>Subscribe to our mailing list</h4>\n" +
+    "				<div class=\"mc-field-group\">\n" +
+    "					<label for=\"mce-EMAIL\">Email Address</label>\n" +
+    "					<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">\n" +
+    "				</div>\n" +
     "\n" +
-    "	<div class=\"person clearfix\">\n" +
-    "		<p>CONTACT</p>\n" +
+    "				<div id=\"mce-responses\" class=\"clear\">\n" +
+    "					<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n" +
+    "					<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n" +
+    "				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n" +
+    "			    <div style=\"position: absolute; left: -5000px;\">\n" +
+    "			    	<input type=\"text\" name=\"b_441ffe1b780f94da8bfedb43c_ec4ca8f48f\" tabindex=\"-1\" value=\"\">\n" +
+    "			    </div>\n" +
+    "			    <div class=\"clear\">\n" +
+    "			    	<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\">\n" +
+    "			    </div>\n" +
+    "		    </div>\n" +
+    "		</form>\n" +
     "	</div>\n" +
+    "	<!--End mc_embed_signup-->\n" +
     "</div>\n" +
     "\n" +
     "\n" +
@@ -211,7 +236,7 @@ angular.module("../templates/content/about.html", []).run(["$templateCache", fun
 
 angular.module("../templates/content/assumptions.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/assumptions.html",
-    "<div class=\"col-lg-10 col-lg-offset-0 col-md-10 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-0 col-md-9 col-md-offset-0 col-sm-9 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2> Assumptions...</h2>\n" +
     "	<h3>“That's what we think they want.”</h3>\n" +
     "	<p>An initial interdisciplinary expert meeting, with all parties involved, included a discussion and brainstorm about what kind of digital interfaces the museum uses already, what is in the planning and what people from the different departments might want in the future in order to cater to the visitor's needs and to match their goals of engaging visitors with the exhibition.<br>\n" +
@@ -229,7 +254,7 @@ angular.module("../templates/content/assumptions.html", []).run(["$templateCache
     "\n" +
     "\n" +
     "</div>\n" +
-    "<div class=\"col-lg-14 col-lg-offset-0 col-md-14 col-md-offset-0 col-sm-14 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-14 col-lg-offset-1 col-md-14 col-md-offset-1 col-sm-14 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<img class=\"child\" src=\"images/webimages/visitors_aussumptions.jpg\">\n" +
     "</div>\n" +
     "");
@@ -237,9 +262,12 @@ angular.module("../templates/content/assumptions.html", []).run(["$templateCache
 
 angular.module("../templates/content/demo.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/demo.html",
-    "<div class=\"col-lg-10 col-lg-offset-0 col-md-10 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-24 col-xs-offset-0 \">\n" +
+    "<div class=\"container-fluid\">\n" +
     "	<h2>It doesn't matter how much 'cultural capital' you bring.</h2>\n" +
     "	<h3>Social features for visitor's engagement</h3>\n" +
+    "</div>\n" +
+    "\n" +
+    "<div class=\"col-lg-9 col-lg-offset-0 col-md-9 col-md-offset-0 col-sm-9 col-sm-offset-0 col-xs-24 col-xs-offset-0 \">\n" +
     "	<p>The visitor's experience of the Rijksmuseum and the interaction of visitors with artworks are necessarily embedded in a strong social framework. As the museum adheres to a large number of social rules it is often thought of as a rather intimidating place, than a place for learning and curiosity and as a visitor, one cannot get anywhere close to knowing everything about the collection.<br>\n" +
     "\n" +
     "	The vast amount of knowledge that is bundled in and around the museum often reminds visitors of their insufficient knowledge, which therefore lets them feel slightly awkward when walking through the exhibition.<br>\n" +
@@ -250,7 +278,7 @@ angular.module("../templates/content/demo.html", []).run(["$templateCache", func
     "\n" +
     "	<p>Visitors can contribute and share their observations and knowledge, no matter what their <i>cultural capital</i> is, which creates a feeling of being valuable.</p></a>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-14 col-lg-offset-0 col-md-14 col-md-offset-0 col-sm-14 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-14 col-lg-offset-1 col-md-14 col-md-offset-1 col-sm-14 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<div class='embed-container'>\n" +
     "		<iframe src='http://player.vimeo.com/video/112958657' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n" +
     "	</div>\n" +
@@ -260,7 +288,7 @@ angular.module("../templates/content/demo.html", []).run(["$templateCache", func
 
 angular.module("../templates/content/evaluation.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/evaluation.html",
-    "<div class=\"col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-0 col-md-9 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>Process Evaluation</h2>\n" +
     "	<p>We prototyped and tested three features, which tried to provide answers to the human-centered design question: “How we might engage museum visitors more with their surrounding without indicating a distinction by putting value into the aspect they choose to engage with?”<br>\n" +
     "\n" +
@@ -270,7 +298,7 @@ angular.module("../templates/content/evaluation.html", []).run(["$templateCache"
     "\n" +
     "	The critical feedback we received matched our hypothesis that visitors of the 'cultural professional'-group, who already know how they can personally interact with the museum setting, required and appreciated the informal quality of the stories less than visitors of the other categories. However, all of the visitors said that it made their museum visit more interactive and brought in different perspectives they wouldn't have thought of themselves.</p>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-5 col-md-9 col-md-offset-5 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h1>Concluding Remarks</h1>\n" +
     "	<p>Visitors largely appreciated the possibility of submitting own stories and trivia questions, and were tempted to do so.<br>\n" +
     "\n" +
@@ -304,7 +332,7 @@ angular.module("../templates/content/header.html", []).run(["$templateCache", fu
 angular.module("../templates/content/literature.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/literature.html",
     "<div class=\"container-fluid\">\n" +
-    "	<h2>Literature</h2>\n" +
+    "	<h1>Literature</h1>\n" +
     "</div>\n" +
     "<div class=\"col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0 literatureDiv\">\n" +
     "	<ul>\n" +
@@ -384,11 +412,18 @@ angular.module("../templates/content/masonryviewer.html", []).run(["$templateCac
     "<!-- 	<blockquote>A detailed profile and script from a participating Cultural Tourist illustrating collected input from museum visitors.</blockquote> -->\n" +
     "	<div id=\"photoPiece\">\n" +
     "		<div class=\"grid-sizer\"></div>\n" +
-    "		<div class=\"stamp\">\n" +
-    "				<h5>Photo transcript:</h5>\n" +
-    "				<h1 id=\"transcriptHeader\"></h1>\n" +
-    "				<p id=\"transcriptSnippet\"></p>\n" +
+    "		<div class=\"container-fluid\">\n" +
+    "			<div class=\"row\">\n" +
+    "				<div class=\"col-lg-10 col-lg-offset-0 col-md-10 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-24 col-xs-offset-0 stamp\">\n" +
+    "					<div>\n" +
+    "						<h5>Photo transcript:</h5>\n" +
+    "						<h1 id=\"transcriptHeader\"></h1>\n" +
+    "						<p id=\"transcriptSnippet\"></p>\n" +
+    "					</div>\n" +
+    "				</div>\n" +
+    "			</div>\n" +
     "		</div>\n" +
+    "\n" +
     "	</div>\n" +
     "</div>\n" +
     "\n" +
@@ -398,7 +433,7 @@ angular.module("../templates/content/masonryviewer.html", []).run(["$templateCac
 
 angular.module("../templates/content/survey.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/survey.html",
-    "<div class=\"col-lg-10 col-lg-offset-0 col-md-10 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-0 col-md-9 col-md-offset-0 col-sm-9 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>No comment on the Masterpieces.</h2>\n" +
     "	<h3>“I know they are important.”</h3>\n" +
     "	<p>The qualitative survey had twelve participants who belong to four of the five  visitors' categories the Rijksmuseum works with on a daily basis in education and marketing. The focus lies on the unaccompanied visitors: Three Cultural Tourists, three Art Lover's, two Cultural Professionals and one Family (with three children, who each participated as well) participated in the survey.</p> \n" +
@@ -415,7 +450,7 @@ angular.module("../templates/content/survey.html", []).run(["$templateCache", fu
     "</div>\n" +
     "\n" +
     "</div>\n" +
-    "<div class=\"col-lg-14 col-lg-offset-0 col-md-14 col-md-offset-0 col-sm-14 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-14 col-lg-offset-1 col-md-14 col-md-offset-1 col-sm-14 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<img class=\"infographic\" src=\"images/webimages/infographic_new.jpg\">\n" +
     "</div>\n" +
     "");
@@ -423,14 +458,14 @@ angular.module("../templates/content/survey.html", []).run(["$templateCache", fu
 
 angular.module("../templates/content/theory.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/theory.html",
-    "<div class=\"col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-0 col-md-9 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>Social augmentation vs. technological masterpieces?</h2>\n" +
     "	<h3>Project objectives</h3>\n" +
     "	<p>'Augmentation' is currently often brought up in relation to 'augmented reality' which uses a virtual layer over what we conceive as our real life. Often the use of the word goes hand in hand with a supposed technological innovation, and also our project title suggests that a superimposed “computer-generated image on a user's view of the real world, thus providing a composite view”1 will be in the centre of attention.<br> \n" +
     "	However, the research at stake is not implying an augmented reality but much rather the process of augmentation of artworks in the Rijksmuseum by means of technology.<br> \n" +
     "	When the literal meaning of 'augmentation' simply describes it as 'make something greater by adding to it', 'to increase' or the 'act of making greater'2, the questions arise of (a) what aspects of the artworks should be highlighted, (b) for whom, (c) how does the interface between the object and the viewer look like and (d) through which digital device and software will the work of art be enhanced? </p>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-5 col-md-9 col-md-offset-5 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h1>Interdisciplinary approach</h1>\n" +
     "	<p>In order to tackle the first two questions, the design thinking method was used for structuring the whole process of the project, substituted by Visual Feedback Methods which are partly taken from the design thinking toolbox3 and partly developed in my artistic research practice throughout the past years.<br> \n" +
     "	Embedded research projects stimulate collaborations between cultural institutions, the creative industries and universities.<br> \n" +
@@ -489,17 +524,17 @@ angular.module("../templates/displayorder.html", []).run(["$templateCache", func
 
 angular.module("../templates/functional/footer.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/functional/footer.html",
-    "<hr>\n" +
-    "<p>Last update: Thursday 27 Oktober 2014 - Augmenting Masterpieces</p>\n" +
-    "<div class=\"footer\">\n" +
-    "<a> Home </a> &nbsp;\n" +
-    "<a> Understand and Obeserve</a>&nbsp;\n" +
-    "<a> Analyse and Ideate </a>&nbsp;\n" +
-    "<a> Prototype and Test </a>&nbsp;\n" +
-    "<a> Evaluate and Outlook </a>&nbsp;\n" +
-    "<a> Theory and Methods </a>&nbsp;\n" +
-    "<a> About </a>\n" +
+    "<div class=\"sitemap\">\n" +
+    "	<a> Home </a> &nbsp;\n" +
+    "	<a> Understand and Observe</a>&nbsp;\n" +
+    "	<a> Analyse and Ideate </a>&nbsp;\n" +
+    "	<a> Prototype and Test </a>&nbsp;\n" +
+    "	<a> Evaluate and Outlook </a>&nbsp;\n" +
+    "	<a> Theory and Methods </a>&nbsp;\n" +
+    "	<a> About </a>\n" +
     "</div>\n" +
+    "<p>Last update: Thursday 27 Oktober 2014 - Augmenting Masterpieces</p>\n" +
+    "\n" +
     "");
 }]);
 
