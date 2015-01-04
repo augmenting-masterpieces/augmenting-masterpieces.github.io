@@ -32,7 +32,7 @@
         }
       })
       .state('displayorderHome.withSubroutes', {
-        url: '/home',
+        url: '/',
         views: {
           "header": { 
             templateUrl: "../templates/content/header.html",
@@ -54,7 +54,7 @@
         }
       });
 
-    $urlRouterProvider.when('/', '/home');
+    // $urlRouterProvider.when('/', '/home');
   }
 })();
 (function(){
