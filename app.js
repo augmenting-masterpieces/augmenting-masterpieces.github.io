@@ -457,7 +457,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
   $templateCache.put("../templates/content/processmap.html",
     "<div>\n" +
     "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "		<h1>Understand and Observe</h1>\n" +
+    "		<a href=\"#understand\"><h1>Understand and Observe</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
     "		<p class=\"arrow\">&#8594;</p>\n" +
@@ -474,7 +474,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
     "</div>\n" +
     "<div>\n" +
     "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "		<h1>Analyse and Ideate</h1>\n" +
+    "		<a href=\"#analyse\"><h1>Analyse and Ideate</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
     "		<p class=\"arrow\">&#8594;</p>\n" +
@@ -491,7 +491,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
     "</div>\n" +
     "<div>\n" +
     "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "		<h1>Prototype and Test</h1>\n" +
+    "		<a href=\"#prototype\"><h1>Prototype and Test</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
     "		<p class=\"arrow\">&#8594;</p>\n" +
@@ -508,7 +508,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
     "</div>\n" +
     "<div>\n" +
     "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "		<h1>Evaluate and Outlook</h1>\n" +
+    "		<a href=\"#evaluate\"><h1>Evaluate and Outlook</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
     "		<p class=\"arrow\">&#8594;</p>\n" +
@@ -574,7 +574,6 @@ angular.module("../templates/content/theory.html", []).run(["$templateCache", fu
 angular.module("../templates/content/usercamerastudy.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/usercamerastudy.html",
     "<div class=\"col-lg-22 col-lg-offset-1 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
-    "	<blockquote>For the User Video Study, I asked children to wear a camera during their museum visit as their perspective is not only physically different, but their view and span of attention is less trained yet compared to adults.</blockquote>\n" +
     "	<div class='embed-container'>\n" +
     "		<iframe src='http://player.vimeo.com/video/112510250' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n" +
     "	</div>\n" +
@@ -598,7 +597,7 @@ angular.module("../templates/displayorder.html", []).run(["$templateCache", func
     "	<h1 id=\"understand\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>Understand</span> and <span>Observe</span> </h1>\n" +
     "</section>\n" +
     "<section ui-view=\"assumptions\" class=\"row block assumptions\"></section>\n" +
-    "<section ui-view=\"usercamerastudy\" class=\"row block\"></section>\n" +
+    "<section ui-view=\"usercamerastudy\" class=\"row block userCameraStudy\"></section>\n" +
     "<section class=\"row block intermezzo analyse\">\n" +
     "	<h1 id=\"analyse\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>Analyse</span> and <span>Ideate</span> </h1>\n" +
     "</section>\n" +
