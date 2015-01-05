@@ -209,7 +209,7 @@ angular.module('templates-augm', ['../templates/content/about.html', '../templat
 
 angular.module("../templates/content/about.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/about.html",
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<h1>People</h1>\n" +
     "	<div class=\"person clearfix\">\n" +
     "		<img src=\"./images/persons/johanna2.jpg\" alt=\"Embedded Researcher UvA -> Rijksmuseum\">\n" +
@@ -233,7 +233,7 @@ angular.module("../templates/content/about.html", []).run(["$templateCache", fun
     "		<p>Robert-Jan Korteschiel</p>\n" +
     "	</div>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-10 col-lg-offset-2 col-md-11 col-md-offset-1 col-sm-12 col-sm-offset-1 col-xs-24 col-xs-offset-0\" >\n" +
+    "<div class=\"col-lg-10 col-lg-offset-2 col-md-11 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-24 col-xs-offset-0\" >\n" +
     "	<h1>Contact</h1>\n" +
     "	<p>Johanna Barnbeck</p>\n" +
     "	<p>Locatie 13</p>\n" +
@@ -274,7 +274,7 @@ angular.module("../templates/content/about.html", []).run(["$templateCache", fun
 
 angular.module("../templates/content/assumptions.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/assumptions.html",
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2> Assumptions...</h2>\n" +
     "	<h3>“That's what we think they want.”</h3>\n" +
     "	<p>An initial interdisciplinary expert meeting, with all parties involved, included a discussion and brainstorm about what kind of digital interfaces the museum uses already, what is in the planning and what people from the different departments might want in the future in order to cater to the visitor's needs and to match their goals of engaging visitors with the exhibition.<br>\n" +
@@ -284,7 +284,7 @@ angular.module("../templates/content/assumptions.html", []).run(["$templateCache
     "	<p>This sentence beautifully sums up what kind of reflection one first needs to get out there and subsequently rid off: assumptions about user experiences. Accordingly, I designed my research process with a strong focus on input from the museum visitors, based on how the employees run the Rijksmuseum on a daily basis and on the digital engagement methods they set up for their visitors.</p>\n" +
     "	<br>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12 col-sm-offset-1 col-xs-24 col-xs-offset-0 hidden-xs\">\n" +
+    "<div class=\"col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0 hidden-xs\">\n" +
     "	<img class=\"child\" src=\"images/webimages/visitors_aussumptions.jpg\">\n" +
     "</div>\n" +
     "");
@@ -292,17 +292,17 @@ angular.module("../templates/content/assumptions.html", []).run(["$templateCache
 
 angular.module("../templates/content/demo.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/demo.html",
-    "<div class=\"col-lg-20 col-lg-offset-2 col-md-20 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-20 col-lg-offset-2 col-md-20 col-md-offset-1 col-sm-20 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>It doesn't matter how much 'cultural capital' you bring.</h2>\n" +
     "	<h3>Social features for visitor's engagement</h3>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<p>The visitor's experience of the Rijksmuseum and the interaction of visitors with artworks are necessarily embedded in a strong social framework. As the museum adheres to a large number of social rules it is often thought of as a rather intimidating place, than a place for learning and curiosity and as a visitor, one cannot get anywhere close to knowing everything about the collection.<br>\n" +
     "\n" +
     "	The vast amount of knowledge that is bundled in and around the museum often reminds visitors of their insufficient knowledge, which therefore lets them feel slightly awkward when walking through the exhibition.<br>\n" +
     "	</p>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<p>Rather than trying to attempt to engage people with in-depth (art) historical background information about art works, we set up three ways of social interaction on a broader range with the museum and the other visitors.</p>\n" +
     "\n" +
     "	<p>Through engaging on more general terms with the surrounding, people will be more likely to find their own access to the museum and ultimately to the artworks in it.</p>\n" +
@@ -320,7 +320,7 @@ angular.module("../templates/content/demo.html", []).run(["$templateCache", func
 
 angular.module("../templates/content/evaluation.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/evaluation.html",
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>Process Evaluation</h2>\n" +
     "	<p>We prototyped and tested three features, which tried to provide answers to the human-centered design question: “How we might engage museum visitors more with their surrounding without indicating a distinction by putting value into the aspect they choose to engage with?”<br>\n" +
     "\n" +
@@ -357,13 +357,12 @@ angular.module("../templates/content/header.html", []).run(["$templateCache", fu
     "			<a href=\"http://cdh.uva.nl/\"><img src=\"./images/logos/uvalogowhite.png\"></a>\n" +
     "		</div>\n" +
     "	</div> \n" +
-    "</div>\n" +
-    "<h1 class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0 subtitle\"><span>Process</span></h1>");
+    "</div>");
 }]);
 
 angular.module("../templates/content/literature.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/literature.html",
-    "<div class=\"col-lg-22 col-lg-offset-1 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-22 col-lg-offset-1 col-md-22 col-md-offset-0 col-sm-22 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h1>Literature</h1>\n" +
     "</div>\n" +
     "<div class=\"col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0 literatureDiv\">\n" +
@@ -456,7 +455,7 @@ angular.module("../templates/content/masonryviewer.html", []).run(["$templateCac
 angular.module("../templates/content/processmap.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/processmap.html",
     "<div>\n" +
-    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "		<a href=\"#understand\"><h1>Understand and Observe</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
@@ -473,7 +472,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
     "	</div>\n" +
     "</div>\n" +
     "<div>\n" +
-    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "		<a href=\"#analyse\"><h1>Analyse and Ideate</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
@@ -490,7 +489,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
     "	</div>\n" +
     "</div>\n" +
     "<div>\n" +
-    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "		<a href=\"#prototype\"><h1>Prototype and Test</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
@@ -507,7 +506,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
     "	</div>\n" +
     "</div>\n" +
     "<div>\n" +
-    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "	<div class=\"col-lg-6 col-lg-offset-2 col-md-22 col-md-offset-1 col-sm-20 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "		<a href=\"#evaluate\"><h1>Evaluate and Outlook</h1></a>\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-2 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0\">\n" +
@@ -529,7 +528,7 @@ angular.module("../templates/content/processmap.html", []).run(["$templateCache"
 
 angular.module("../templates/content/survey.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/survey.html",
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>No comment on the Masterpieces.</h2>\n" +
     "	<h3>“I know they are important.”</h3>\n" +
     "	<p>The qualitative survey had twelve participants who belong to four of the five  visitors' categories the Rijksmuseum works with on a daily basis in education and marketing. The focus lies on the unaccompanied visitors: Three Cultural Tourists, three Art Lover's, two Cultural Professionals and one Family (with three children, who each participated as well) participated in the survey.</p> \n" +
@@ -546,7 +545,7 @@ angular.module("../templates/content/survey.html", []).run(["$templateCache", fu
     "</div>\n" +
     "\n" +
     "</div>\n" +
-    "<div class=\"col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<img src=\"images/webimages/infographic_new.jpg\">\n" +
     "</div>\n" +
     "");
@@ -554,14 +553,14 @@ angular.module("../templates/content/survey.html", []).run(["$templateCache", fu
 
 angular.module("../templates/content/theory.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/content/theory.html",
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>Social augmentation vs. technological masterpieces?</h2>\n" +
     "	<h3>Project objectives</h3>\n" +
     "	<p>'Augmentation' is currently often brought up in relation to 'augmented reality' which uses a virtual layer over what we conceive as our real life. Often the use of the word goes hand in hand with a supposed technological innovation, and also our project title suggests that a superimposed “computer-generated image on a user's view of the real world, thus providing a composite view”1 will be in the centre of attention.<br> \n" +
     "	However, the research at stake is not implying an augmented reality but much rather the process of augmentation of artworks in the Rijksmuseum by means of technology.<br> \n" +
     "	When the literal meaning of 'augmentation' simply describes it as 'make something greater by adding to it', 'to increase' or the 'act of making greater'2, the questions arise of (a) what aspects of the artworks should be highlighted, (b) for whom, (c) how does the interface between the object and the viewer look like and (d) through which digital device and software will the work of art be enhanced? </p>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
     "	<h1>Interdisciplinary approach</h1>\n" +
     "	<p>In order to tackle the first two questions, the design thinking method was used for structuring the whole process of the project, substituted by Visual Feedback Methods which are partly taken from the design thinking toolbox3 and partly developed in my artistic research practice throughout the past years.<br> \n" +
     "	Embedded research projects stimulate collaborations between cultural institutions, the creative industries and universities.<br> \n" +
@@ -578,7 +577,7 @@ angular.module("../templates/content/usercamerastudy.html", []).run(["$templateC
     "		<iframe src='http://player.vimeo.com/video/112510250' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n" +
     "	</div>\n" +
     "</div>\n" +
-    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<h2>...and how to get rid of them.</h2>\n" +
     "	<h3>Visual Feedback Methods</h3>\n" +
     "	<p>I use Visual User Feedback methods to understand different perspectives and gain insights from the museum visitors. Those methods not only give room to individual oral feedback, but also to visual stories and experiences. Therefore the oral and visual feedback from the user, reveals different kinds of information than a thematically focused survey. </p>\n" +
@@ -594,30 +593,30 @@ angular.module("../templates/displayorder.html", []).run(["$templateCache", func
     "<section ui-view=\"header\" id=\"main\" class=\"row block maintro\"></section>\n" +
     "<section ui-view=\"processmap\" class=\"row block processmap\"></section>\n" +
     "<section class=\"row block intermezzo understand\">\n" +
-    "	<h1 id=\"understand\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>Understand</span> and <span>Observe</span> </h1>\n" +
+    "	<h1 id=\"understand\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\"><span>Understand</span> and <span>Observe</span> </h1>\n" +
     "</section>\n" +
     "<section ui-view=\"assumptions\" class=\"row block assumptions\"></section>\n" +
     "<section ui-view=\"usercamerastudy\" class=\"row block userCameraStudy\"></section>\n" +
     "<section class=\"row block intermezzo analyse\">\n" +
-    "	<h1 id=\"analyse\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>Analyse</span> and <span>Ideate</span> </h1>\n" +
+    "	<h1 id=\"analyse\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\"><span>Analyse</span> and <span>Ideate</span> </h1>\n" +
     "</section>\n" +
     "<section ui-view=\"survey\" class=\"row block\"></section>\n" +
     "<section ui-view=\"masonryviewer\" class=\"row block masonry\"></section>\n" +
     "<section class=\"row block intermezzo proto\">\n" +
-    "	<h1 id=\"prototype\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>Prototype</span> and <span>Test</span></h1>\n" +
+    "	<h1 id=\"prototype\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\"><span>Prototype</span> and <span>Test</span></h1>\n" +
     "</section>\n" +
     "<section ui-view=\"demo\" class=\"row block\"></section>\n" +
     "<section class=\"row block intermezzo evaluate\">\n" +
-    "	<h1 id=\"evaluate\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>Evaluate</span> and <span>Outlook</span></h1>\n" +
+    "	<h1 id=\"evaluate\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\"><span>Evaluate</span> and <span>Outlook</span></h1>\n" +
     "</section>\n" +
     "<section ui-view=\"evaluation\" class=\"row block\"></section>\n" +
     "<section class=\"row block intermezzo theory\">\n" +
-    "	<h1 id=\"theory\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>Theory</span> and <span>Methods</span></h1>\n" +
+    "	<h1 id=\"theory\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\"><span>Theory</span> and <span>Methods</span></h1>\n" +
     "</section>\n" +
     "<section ui-view=\"theory\" class=\"row block\"></section>\n" +
     "<section ui-view=\"literature\" class=\"row block literature\"></section>\n" +
     "<section class=\"row block intermezzo about\">\n" +
-    "	<h1 id=\"about\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\"><span>About</span></h1>\n" +
+    "	<h1 id=\"about\" class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\"><span>About</span></h1>\n" +
     "</section>\n" +
     "<section ui-view=\"about\" class=\"row block people\"></section>");
 }]);
