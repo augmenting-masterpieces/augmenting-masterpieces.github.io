@@ -209,44 +209,17 @@ angular.module("../templates/functional/footerSiteWide.html", []).run(["$templat
     "		</li>\n" +
     "		<li>\n" +
     "			<ul class=\"list-unstyled\">\n" +
-    "				<li><h4><a> Understand and Observe</a></h4></li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
+    "				<li><h4><a ui-sref=\"home.subroutes\"> Understand and Observe</a></h4></li>\n" +
+    "				<li><a href=\"#assumptions\">Assumptions... - \"That's What We Think They Want\"</a></li>\n" +
+    "				<li><a href=\"#usercamerastudy\">...And How To Get Rid Of Them - Visual Feedback Methods</a></li>\n" +
+    "				<li><a href=\"#usercamerastudy\">Video: User Video Study of Jakob (7)</a></li>\n" +
     "			</ul>\n" +
     "		</li>\n" +
     "		<li>\n" +
     "			<ul class=\"list-unstyled\">\n" +
-    "				<li><h4><a ui-sref=\"home.subroutes\"> Analyse and Ideate </a></h4></li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
-    "			</ul>\n" +
-    "		</li>\n" +
-    "	</ul>\n" +
-    "</div>\n" +
-    "<div class=\"col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-8 col-sm-offset-0 col-xs-20 col-xs-offset-2\">\n" +
-    "	<ul class=\"list-unstyled\">\n" +
-    "		<li>\n" +
-    "			<ul class=\"list-unstyled\">\n" +
-    "				<li><h4><a ui-sref=\"home.subroutes\"> Prototype and Test </a></h4></li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
-    "			</ul>\n" +
-    "		</li>\n" +
-    "		<li>\n" +
-    "			<ul class=\"list-unstyled\">\n" +
-    "				<li><h4><a ui-sref=\"home.subroutes\"> Evaluate and Outlook </a></h4></li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
-    "			</ul>\n" +
-    "		</li>\n" +
-    "		<li>\n" +
-    "			<ul class=\"list-unstyled\">\n" +
-    "				<li><h4><a ui-sref=\"home.subroutes\"> Theory and Methods </a></h4></li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
+    "				<li><h4><a href=\"#analyse\"> Analyse and Ideate </a></h4></li>\n" +
+    "				<li><a href=\"#survey\">So, what do visitors relate to? - <i>No comment</i> on the Masterpieces</a></li>\n" +
+    "				<li><a href=\"#masonryviewer\">Detailed Case Study: User Camera Study of a Museum Visitor</a></li>\n" +
     "			</ul>\n" +
     "		</li>\n" +
     "	</ul>\n" +
@@ -255,10 +228,36 @@ angular.module("../templates/functional/footerSiteWide.html", []).run(["$templat
     "	<ul class=\"list-unstyled\">\n" +
     "		<li>\n" +
     "			<ul class=\"list-unstyled\">\n" +
-    "				<li><h4><a ui-sref=\"home.subroutes\"> About </a></h4></li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
-    "				<li>Something</li>\n" +
+    "				<li><h4><a href=\"#prototype\"> Prototype and Test </a></h4></li>\n" +
+    "				<li><a href=\"#demo\">Social Features For Visitors Engagement</a></li>\n" +
+    "				<li><a href=\"#demo\">Research Trailer: Testing New App Features in the Museum</a></li>\n" +
+    "				<li></li>\n" +
+    "			</ul>\n" +
+    "		</li>\n" +
+    "		<li>\n" +
+    "			<ul class=\"list-unstyled\">\n" +
+    "				<li><h4><a href=\"#evaluate\"> Evaluate and Outlook </a></h4></li>\n" +
+    "				<li><a href=\"#evaluation\">Process Evaluation</a></li>\n" +
+    "				<li><a href=\"#evaluation\">Concluding Remarks and Outlook</a></li>\n" +
+    "				<li></li>\n" +
+    "			</ul>\n" +
+    "		</li>\n" +
+    "		<li>\n" +
+    "			<ul class=\"list-unstyled\">\n" +
+    "				<li><h4><a href=\"#theory\"> Theory and Methods </a></h4></li>\n" +
+    "				<li><a href=\"#theory\">Social Augmentation vs. Technological Masterpieces?</a></li>\n" +
+    "				<li><a href=\"#theory\">About the Interdisciplinary Approach</a></li>\n" +
+    "				<li><a href=\"#literature\">Literature</a></li>\n" +
+    "			</ul>\n" +
+    "		</li>\n" +
+    "	</ul>\n" +
+    "</div>\n" +
+    "<div class=\"col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-8 col-sm-offset-0 col-xs-20 col-xs-offset-2\">\n" +
+    "	<ul class=\"list-unstyled\">\n" +
+    "		<li>\n" +
+    "			<ul class=\"list-unstyled\">\n" +
+    "				<li><h4><a href=\"#about\"> About </a></h4></li>\n" +
+    "				<li><h4><a href=\"#about\"> Contact </a></h4></li>\n" +
     "			</ul>\n" +
     "		</li>\n" +
     "		<li>\n" +
@@ -267,7 +266,8 @@ angular.module("../templates/functional/footerSiteWide.html", []).run(["$templat
     "			</ul>\n" +
     "		</li>\n" +
     "		<li>\n" +
-    "			<p class=\"copyright\">2015 &#169; Augmenting Masterpieces - No babies were harmed in the making of this site.</p>\n" +
+    "			<p class=\"copyright\">&#169; 2015 Augmenting Masterpieces</p>\n" +
+    "			<li><a href=\"https://github.com/augmenting-masterpieces/AugmentM\">See project on GitHub</a></li>\n" +
     "		</li>\n" +
     "	</ul>\n" +
     "</div>\n" +
@@ -285,7 +285,7 @@ angular.module("../templates/functional/navSiteWide.html", []).run(["$templateCa
     "        <span class=\"icon-bar\"></span>\n" +
     "        <span class=\"icon-bar\"></span>\n" +
     "      </button>\n" +
-    "      <a class=\"navbar-brand\">Augmenting Masterpieces</a>\n" +
+    "      <a ui-sref=\"home.subroutes\" class=\"navbar-brand\"><img src=\"images/logos/augmlogosmall.png\" alt=\"\"> Augmenting Masterpieces</a>\n" +
     "    </div>\n" +
     "    <div class=\"collapse navbar-collapse\" id=\"navbarcontents\" bs-collapse-target>\n" +
     "      <ul class=\"nav navbar-nav\">\n" +
@@ -336,14 +336,21 @@ angular.module("../templates/home.html", []).run(["$templateCache", function($te
 angular.module("../templates/home/about.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/home/about.html",
     "<div class=\"col-lg-11 col-lg-offset-2 col-md-12 col-md-offset-1 col-sm-13 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
-    "	<h1>People</h1>\n" +
+    "	<h2>About</h2>\n" +
+    "	<div class=\"person row\">\n" +
+    "		<div class=\"col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 removePadding\">\n" +
+    "			<img src=\"./images/logos/augmlogosmall.png\" alt=\"Contributors UvA -> Rijksmuseum\">\n" +
+    "		</div>\n" +
+    "		<div class=\"col-lg-18 col-lg-offset-0 col-md-18 col-md-offset-0 col-sm-18 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
+    "			<p>Augmenting Masterpieces is a collaboration between the University of Amsterdam and the Rijksmuseum Amsterdam. For building and testing the app features Floris de Langen and Roel van der Wal functioned as tech partner from the creative industries.</p>\n" +
+    "		</div>\n" +
+    "	</div>\n" +
     "	<div class=\"person row\">\n" +
     "		<div class=\"col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 removePadding\">\n" +
     "			<img src=\"./images/persons/johanna2.jpg\" alt=\"Embedded Researcher UvA -> Rijksmuseum\">\n" +
     "		</div>\n" +
     "		<div class=\"col-lg-18 col-lg-offset-0 col-md-18 col-md-offset-0 col-sm-18 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "			<h4>Johanna Barnbeck</h4>\n" +
-    "			<p>Johanna Barnbeck designed the research process and carries out the different phases of research and creation. She is a Berlin-based artist, researcher and creative professional with an expertise in multidisciplinary projects combining Artistic Research, Design Thinking and Cultural Analysis.</p>\n" +
+    "			<p><b>Johanna Barnbeck</b> designs the research process and carries out the different phases of creation and experimentation. She is an artist, researcher and creative professional with an expertise in multidisciplinary projects combining Artistic Research, Design Thinking and Cultural Analysis.</p>\n" +
     "		</div>\n" +
     "	</div>\n" +
     "	<div class=\"person row\">\n" +
@@ -351,16 +358,8 @@ angular.module("../templates/home/about.html", []).run(["$templateCache", functi
     "			<img src=\"./images/persons/janHein.jpg\" alt=\"Jan Hein Hoogstad - Assistant Professor Cultural Analysis\">\n" +
     "		</div>\n" +
     "		<div class=\"col-lg-18 col-lg-offset-0 col-md-18 col-md-offset-0 col-sm-18 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "			<h4>Jan Hein Hoogstad</h4>\n" +
-    "			<p>As assistant professor at the University of Amsterdam, Jan Hein Hoogstad teaches a course on the API of the Rijksmuseum within his initiative “Coding the Humanities”. He introduces tools and practices - such as automation, collaboration, and testing - from open-source and commercial software development into humanities research and teaching.</p>\n" +
-    "		</div>\n" +
-    "	</div>\n" +
-    "	<div class=\"person row\">\n" +
-    "		<div class=\"col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-12 col-xs-offset-0 removePadding\">\n" +
-    "			<img src=\"./images/persons/shailoh.jpg\" alt=\"\" class=\"none\">\n" +
-    "		</div>\n" +
-    "		<div class=\"col-lg-18 col-lg-offset-0 col-md-18 col-md-offset-0 col-sm-18 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "			<p>The MediaLab of the Rijksmuseum operates at the intersection between art, technology and education. The Lab functions as a space for experimentation. Shailoh Philips formerly managed the MediaLab and initiated the project together with Jan Hein Hoogstad.</p>\n" +
+    "			\n" +
+    "			<p>Assistant professor <b>Jan Hein Hoogstad</b> teaches a course on the API of the Rijksmuseum at the University of Amsterdam. With his initiative “Coding the Humanities”, he introduces tools and practices - such as automation, collaboration, and testing - from open-source and commercial software development into humanities research and teaching.</p>\n" +
     "		</div>\n" +
     "	</div>\n" +
     "	<div class=\"person row\">\n" +
@@ -381,15 +380,11 @@ angular.module("../templates/home/about.html", []).run(["$templateCache", functi
     "	</div>\n" +
     "</div>\n" +
     "<div class=\"col-lg-7 col-lg-offset-2 col-md-8 col-md-offset-1 col-sm-9 col-sm-offset-1 col-xs-24 col-xs-offset-0\" >\n" +
-    "	<h1>Contact</h1>\n" +
-    "	<p>University of Amsterdam</p>\n" +
-    "	<p>Centre for Digital Humanities</p>\n" +
-    "	<p>Vendelstraat 8</p>\n" +
-    "	<p>1012XX Amsterdam</p>\n" +
-    "	\n" +
+    "	<h2>Contact</h2>\n" +
+    "	<p>University of Amsterdam <br>Centre for Digital Humanities<br>Vendelstraat 8<br>1012XX Amsterdam<br>\n" +
     "	<p>barnbeck@uva.nl</p>\n" +
     "	<br>\n" +
-    "	<h1>Mailing list</h1>\n" +
+    "	<h2>Mailing list</h2>\n" +
     "	<!-- Begin MailChimp Signup Form -->\n" +
     "	<div id=\"mc_embed_signup\">\n" +
     "		<form action=\"//wix.us3.list-manage.com/subscribe/post?u=441ffe1b780f94da8bfedb43c&amp;id=ec4ca8f48f\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n" +
@@ -426,11 +421,10 @@ angular.module("../templates/home/assumptions.html", []).run(["$templateCache", 
     "	<div class=\"col-lg-8 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "		<h2> Assumptions...</h2>\n" +
     "		<h3>“That's what we think they want.”</h3>\n" +
-    "		<p>An initial interdisciplinary expert meeting, with all parties involved, included a discussion and brainstorm about what kind of digital interfaces the museum uses already, what is in the planning and what people from the different departments might want in the future in order to cater to the visitor's needs and to match their goals of engaging visitors with the exhibition.</p>\n" +
-    "\n" +
-    "		<p>Soon we found ourselves in the middle of a discussion about what the visitors of the museum actually wanted, seen from different academic and professional perspectives. The discussion culminated in someone provocatively asking: “Do visitors actually want a different experience? Everything that we have discussed is just what we think they want.”</p>\n" +
-    "\n" +
-    "		<p>This sentence beautifully sums up what kind of reflection one first needs to get out there and subsequently rid off: assumptions about user experiences. Accordingly, I designed my research process with a strong focus on input from the museum visitors, based on how the employees run the Rijksmuseum on a daily basis and on the digital engagement methods they set up for their visitors.</p>\n" +
+    "		<p>During an initial expert's meeting at the Rijksmuseum the discussion evolved around digital interfaces the museum already uses, what the different departments wished for in the future in order to cater to the visitor's needs, and how they pursue their goals of engaging museum visitors with the exhibition.</p>\n" +
+    "		<p>Soon the discussion focused on what everybody thought the museum visitors actually want - seen from different academic and professional perspectives. The discussion culminated in someone asking: “Do visitors actually want a different experience? Everything that we discuss is just <i>what we think they want<i/>.”</p>\n" +
+    "		<p>To reflect on made assumptions can serve as the basis for research. When being aware of them, it is a necessary challenge to get subsequently rid off of them, in order to identify insights for the design thinking process. Thus, to built new interfaces would first of all mean to get valuable input from all the employees running the Rijksmuseum on a daily basis and to engage with the diverse experiences from the museum visitors.</p>\n" +
+    "		\n" +
     "	</div>\n" +
     "	<div class=\"col-lg-13 col-lg-offset-1 col-md-12 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-24 col-xs-offset-0 hidden-xs image-container\">\n" +
     "		<img class=\"child\" src=\"images/webimages/visitors_aussumptions.jpg\">\n" +
@@ -442,19 +436,16 @@ angular.module("../templates/home/assumptions.html", []).run(["$templateCache", 
 angular.module("../templates/home/demo.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/home/demo.html",
     "<div class=\"col-lg-20 col-lg-offset-2 col-md-20 col-md-offset-1 col-sm-20 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
-    "	<h2>It doesn't matter how much 'cultural capital' you bring.</h2>\n" +
-    "	<h3>Social features for visitor's engagement</h3>\n" +
+    "	<h2>Social features for visitor's engagement</h2>\n" +
+    "	<h3>Doesn't matter how much 'cultural capital' you bring.</h3>\n" +
     "</div>\n" +
     "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
-    "	<p>The visitor's experience of the Rijksmuseum and the interaction of visitors with artworks are necessarily embedded in a strong social framework. As the museum adheres to a large number of social rules it is often thought of as a rather intimidating place, than a place for learning and curiosity and as a visitor, one cannot get anywhere close to knowing everything about the collection.</p>\n" +
-    "	<p>The vast amount of knowledge that is bundled in and around the museum often reminds visitors of their insufficient knowledge, which therefore lets them feel slightly awkward when walking through the exhibition.</p>\n" +
+    "	<p>The insights from the Visual Feeback Studies inspired us to prototype social strategies which let the visitors engage with their surrounding on more general terms and independently of their <i>cultural capital</i>, in order make them feel more comfortable and valuable to the museum.</p>\n" +
     "</div>\n" +
     "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">\n" +
-    "	<p>Rather than trying to attempt to engage people with in-depth (art) historical background information about art works, we set up three ways of social interaction on a broader range with the museum and the other visitors.</p>\n" +
-    "\n" +
-    "	<p>Through engaging on more general terms with the surrounding, people will be more likely to find their own access to the museum and ultimately to the artworks in it.</p>\n" +
-    "\n" +
-    "	<p>Visitors can contribute and share their observations and knowledge, no matter what their <i>cultural capital</i> is, which creates a feeling of being valuable.</p></a>\n" +
+    "	<p>Instead of providing people with in-depth (art) historical background information about art works, we designed three app features for location-based, random encounters. One of them lets the visitors of the Rijksmuseum discover hidden stories by other visitors throughout the museum, using one of the new app features on their smartphones.</p>\n" +
+    "	<p>Rather than following a route, visitors encounter stories coincidentally during their visit and can instantly record and add an observation themselves wherever they like. </p>\n" +
+    "	<p>By that, each artwork receives a socially augmented layer. How does it work exactly? Watch the trailer from testing our prototypes. </p></a>\n" +
     "	<br>\n" +
     "</div>\n" +
     "<div class=\"col-lg-22 col-lg-offset-1 col-md-22 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
@@ -468,7 +459,7 @@ angular.module("../templates/home/demo.html", []).run(["$templateCache", functio
 angular.module("../templates/home/evaluation.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/home/evaluation.html",
     "<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
-    "	<h2>Process Evaluation</h2>\n" +
+    "	<h1>Process Evaluation</h1>\n" +
     "	<p>We prototyped and tested three features, which tried to provide answers to the human-centered design question: “How we might engage museum visitors more with their surrounding without indicating a distinction by putting value into the aspect they choose to engage with?”</p>\n" +
     "\n" +
     "	Even stronger, by letting them emphasizing their own aspects in order to find their own approach to the exhibition.</p>\n" +
@@ -496,7 +487,7 @@ angular.module("../templates/home/footerHome.html", []).run(["$templateCache", f
     "	<ul class=\"list-unstyled\">\n" +
     "		<li>\n" +
     "			<ul class=\"list-unstyled\">\n" +
-    "				<li><h4><a ui-sref=\"#main\"> Home </a></h4></li>\n" +
+    "				<li><h4><a href=\"#main\"> Home </a></h4></li>\n" +
     "			</ul>\n" +
     "		</li>\n" +
     "		<li>\n" +
@@ -510,7 +501,7 @@ angular.module("../templates/home/footerHome.html", []).run(["$templateCache", f
     "		<li>\n" +
     "			<ul class=\"list-unstyled\">\n" +
     "				<li><h4><a href=\"#analyse\"> Analyse and Ideate </a></h4></li>\n" +
-    "				<li><a href=\"#survey\">No comment on the Masterpieces - \"I know they are important\"</a></li>\n" +
+    "				<li><a href=\"#survey\">So, what do visitors relate to? - <i>No comment</i> on the Masterpieces</a></li>\n" +
     "				<li><a href=\"#masonryviewer\">Detailed Case Study: User Camera Study of a Museum Visitor</a></li>\n" +
     "			</ul>\n" +
     "		</li>\n" +
@@ -521,7 +512,7 @@ angular.module("../templates/home/footerHome.html", []).run(["$templateCache", f
     "		<li>\n" +
     "			<ul class=\"list-unstyled\">\n" +
     "				<li><h4><a href=\"#prototype\"> Prototype and Test </a></h4></li>\n" +
-    "				<li><a href=\"#demo\">It Doesn't Matter How much Cultural Capital You Bring</a></li>\n" +
+    "				<li><a href=\"#demo\">Social Features For Visitors Engagement</a></li>\n" +
     "				<li><a href=\"#demo\">Research Trailer: Testing New App Features in the Museum</a></li>\n" +
     "				<li></li>\n" +
     "			</ul>\n" +
@@ -696,7 +687,7 @@ angular.module("../templates/home/navHome.html", []).run(["$templateCache", func
     "        <span class=\"icon-bar\"></span>\n" +
     "        <span class=\"icon-bar\"></span>\n" +
     "      </button>\n" +
-    "      <a class=\"navbar-brand\" bs-scrollspy href=\"#main\"><img src=\"images/logos/favicon.ico\" alt=\"\"> Augmenting Masterpieces</a>\n" +
+    "      <a class=\"navbar-brand\" bs-scrollspy href=\"#main\"><img src=\"images/logos/augmlogosmall.png\" alt=\"\"> Augmenting Masterpieces</a>\n" +
     "    </div>\n" +
     "    <div class=\"collapse navbar-collapse\" id=\"navbarcontents\" bs-collapse-target>\n" +
     "      <ul class=\"nav navbar-nav\">\n" +
@@ -791,19 +782,12 @@ angular.module("../templates/home/processmap.html", []).run(["$templateCache", f
 angular.module("../templates/home/survey.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/home/survey.html",
     "<div class=\"col-lg-8 col-lg-offset-2 col-md-9 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
-    "	<h2>No comment on the Masterpieces.</h2>\n" +
-    "	<h3>“I know they are important.”</h3>\n" +
-    "	<p>The qualitative survey had twelve participants who belong to four of the five  visitors' categories the Rijksmuseum works with on a daily basis in education and marketing. The focus lies on the unaccompanied visitors: Three Cultural Tourists, three Art Lover's, two Cultural Professionals and one Family (with three children, who each participated as well) participated in the survey.</p> \n" +
-    "\n" +
-    "	<p>As an example the photographs show one profile of a 'cultural tourist'. About 70% of the museum visitors belong to the group of cultural tourists, as the Rijksmuseum calls people who don't visit museums more than three times a year and is probably found in the Rijksmuseum, because it is part of what you do when you visit Amsterdam.</p>\n" +
-    "\n" +
-    "	<p>In the example, the participant Chris gave 'no comment' on seven out of the 42 pictures. From those seven, five were photographs of paintings, one of an object and one photograph of the building. When being asked later on, why he took those pictures, he said: “I know they are important, so I took a picture of them.”</p>\n" +
-    "\n" +
-    "	<p>However, Chris described in detail the other pictures that he took, the observed situations and he told stories that he overheard from other visitors. He seemed more relaxed and engaged with his surrounding.</p>\n" +
-    "\n" +
-    "	<p>Whereas the amount of time spent on looking at art works and written information varied largely between different visitors, all participants carefully observed other visitors, listened into their conversations or were wondering about their own – proper - behaviour at times. So people don't leave their social consciousness in the wardrobe with their bags, but on the contrary move silently and with a high level of awareness for social interaction, through the museum.</p>\n" +
-    "\n" +
-    "	<p>Thus, social dimensions are highly important for all types of visitors, and are often accompanied by a feeling of social awkwardness. The degree of feeling engaged or addressed by the museum surrounding seems to be connected to the degree of how much visitors can relate to other situations in their daily life. Listening into other people's conversations and re-telling those stories, often served as a bridge to connect with the museum setting in general.</p>\n" +
+    "	<h2>So, what do visitors relate to?</h2>\n" +
+    "	<h3><i>No comment</i> on the Masterpieces.</h3>\n" +
+    "	<p>Whereas the amount of time spent in the museum looking at artworks varied largely between the different participants, all of them carefully observed other visitors, listened into their conversations or were reflecting on their own (proper) behaviour. Most of them also described a feeling of awkwardness at times, that was connected to a felt lack of knowledge.</p> \n" +
+    "	<p>The gallery below shows interview snippets and photographs by Chris, a participating 'cultural tourist'. The infographic depicts how long he stayed and what he took pictures of. Chris gave 'no comment' on seven out of his 42 pictures. Five of them, were photographs of famous paintings. When being asked, why he took those pictures, he said: “I know they [the artworks] are important, so I took a picture of them.”</p>\n" +
+    "	<p>Though he referenced the pictures as important, their cultural status did not make him retrieve information about them. All his descriptions were based on (coincidental) experiences and social encounters.</p>\n" +
+    "	<p>Thus, the <i>social dimensions<i/> of a museum visit are highly important for museum visitors. All of them share a high level of interest in indirect social interaction and in being able to share narratives in an unbiased way.</p>	\n" +
     "</div>\n" +
     "\n" +
     "</div>\n" +
@@ -837,20 +821,19 @@ angular.module("../templates/home/usercamerastudy.html", []).run(["$templateCach
     "<div class=\"col-lg-13 col-lg-offset-1 col-md-12 col-md-offset-1 col-sm-22 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
     "	<div class=\"videos embed-responsive embed-responsive-16by9\">\n" +
     "		<iframe src=\"http://player.vimeo.com/video/112510250\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n" +
-    "		<h4>We asked children to wear a camera during their museum visit. As their perspective is not only physically different, due to their height, we were interested in what they looked at since they are culturally less trained for a museum visit yet compared to adults.</h4>\n" +
-    "		<p>Language: Dutch. For English subtitles click 'CC' in the player</p>\n" +
-    "\n" +
     "	</div>\n" +
+    "	<h4>We asked children to wear a video camera during their museum visit. Their perspective differs due to their height and we were interested in what they looked at since they are not as culturally trained to visit a museum yet.</h4>\n" +
+    "	<p>Language: Dutch. For English subtitles click 'CC' in the player</p>\n" +
     "</div>\n" +
     "\n" +
     "<div class=\"col-lg-8 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
-    "	<h2>...and how to get rid of them.</h2>\n" +
+    "	<h2>...And How To Get Rid Of Them.</h2>\n" +
     "	<h3>Visual Feedback Methods</h3>\n" +
-    "	<p>I use Visual User Feedback methods to understand different perspectives and gain insights from the museum visitors. Those methods not only give room to individual oral feedback, but also to visual stories and experiences. Therefore the oral and visual feedback from the user, reveals different kinds of information than a thematically focused survey. </p>\n" +
+    "	<p>When being interviewed, survey participants can put their experiences and opinions into words. They describe what they see, feel and thought during their visit. With the User Camera Study we carried out, they are given a digital compact camera as an additional medium to capture details and to express themselves. For the User Video Study we supplied visitors with a wearable camera to collect footage from a first person perspective.</p>\n" +
     "</div>\n" +
     "<div class=\"col-lg-8 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-11 col-sm-offset-0 col-xs-24 col-xs-offset-0\">	\n" +
     "	<p>The Photographic User Camera Study consists of two phases. First, the participants are given a camera with which they walk through the museum and take pictures of anything drawing their attention. They can choose themselves what they capture, for how long they want to stay in the exhibition and how many pictures they take.</p>\n" +
-    "	<p>The collecting phase is followed by a qualitative interview in which the participant first gets to talk about the photographs in a way that is comparable to someone showing their vacation pictures: descriptive and as detailed as they prefer. Later on specific questions concerning sensual experiences (what did you hear, smell, touch?) and digital devices (which devices did you use during your visit and to do what?) are asked.</p>\n" +
+    "	<p>The collecting phase is followed by a qualitative interview in which the participant first gets to talk about the photographs in a way that is comparable to someone showing their vacation pictures: descriptive and as detailed as they prefer. Later on specific questions concerning sensual experiences <i>(What did you hear, smell, touch?)</i> and digital devices <i>(Which device(s) did you use during your visit and what did you do with it?)</i> are asked.</p>\n" +
     "</div>\n" +
     "");
 }]);
@@ -858,32 +841,37 @@ angular.module("../templates/home/usercamerastudy.html", []).run(["$templateCach
 angular.module("../templates/impressum.html", []).run(["$templateCache", function($templateCache) {
   $templateCache.put("../templates/impressum.html",
     "<div ui-view=\"nav\"></div>  \n" +
+    "<div class=\"impressum block row\">\n" +
+    "	<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
+    "		<h3>Contributor's (in Alphabetical Order)</h3>\n" +
+    "		<ul>\n" +
+    "			<li>App animation: Wim Dijksterhuis, <a href=\"http://www.screenturner.nl\">Screenturner</a></li>\n" +
+    "			<li>App development: <a href=\"http://www.uncinc.nl\">UncInc</a> in collaboration with Johanna Barnbeck</li>\n" +
+    "			<li>Conceptural Sparring for the Prototypes: Jan Hein Hoogstad, Roel van der Wal, Floris de Langen</li>\n" +
+    "			<li>Infographics User Camera Study: Patty Jansen</li>\n" +
+    "			<li>Logo Design: <a href=\"http://www.resultat.nl\">Creatief Bureau Resultåt</a></li>\n" +
+    "			<li>Research Design, articles, videos and photographs (unless stated otherwise): Johanna Barnbeck</li>\n" +
+    "			<li>Website: Robert-Jan Korteschiel and Patty Jansen</li>\n" +
+    "			<li>Trailer testing prototype at the Rijksmuseum: <a href=\"http://www.screenturner.nl\">Screenturner</a> in collaboration with Johanna Barnbeck</li> \n" +
+    "		</ul>\n" +
+    "	</div>\n" +
     "\n" +
-    "Contributor´s (in Alphabetical Order)\n" +
-    "App animation: Wim Dijksterhuis, <a href=\"http://www.screenturner.nl\">Screenturner</a>\n" +
-    "App development: <a href=\"http://www.uncinc.nl\">UncInc</a> in collaboration with Johanna Barnbeck\n" +
-    "Conceptural Sparring for the Prototypes: Jan Hein Hoogstad, Roel van der Wal, Floris de Langen\n" +
-    "Infographics User Camera Study: Patty Jansen\n" +
-    "Logo Design: <a href=\"http://www.resultat.nl\">Creatief Bureau Resultåt</a>\n" +
-    "Research Design, articles, videos and photographs (unless stated otherwise): Johanna Barnbeck \n" +
-    "Website: Robert-Jan Korteschiel and Patty Jansen\n" +
-    "Trailer testing prototype at the Rijksmuseum: <a href=\"http://www.screenturner.nl\">Screenturner</a> in collaboration with Johanna Barnbeck \n" +
-    "\n" +
-    "\n" +
-    "<h4>Disclaimer</h4>\n" +
-    "<p><strong>Limitation of liability for internal content</strong></p>\n" +
-    "<p>The content of our website has been compiled with meticulous care and to the best of our knowledge. However, we cannot assume any liability for the up-to-dateness, completeness or accuracy of any of the pages.</p>\n" +
-    "<p>Pursuant to section 7, para. 1 of the TMG (Telemediengesetz –  Tele Media Act by German law), we as service providers are liable for our own content on these pages in accordance with general laws. However, pursuant to sections 8 to 10 of the TMG, we as service providers are not under obligation to monitor external information provided or stored on our website. Once we have become aware of a specific infringement of the law, we will immediately remove the content in question. Any liability concerning this matter can only be assumed from the point in time at which the infringement becomes known to us.</p>\n" +
-    "<p><strong>Limitation of liability for external links</strong></p>\n" +
-    "<p>Our website contains links to the websites of third parties (“external links”). As the content of these websites is not under our control, we cannot assume any liability for such external content. In all cases, the provider of information of the linked websites is liable for the content and accuracy of the information provided. At the point in time when the links were placed, no infringements of the law were recognisable to us. As soon as an infringement of the law becomes known to us, we will immediately remove the link in question.</p>\n" +
-    "<p><strong>Copyright</strong></p>\n" +
-    "<p>The content and works published on this website are governed by the copyright laws of Germany. Any duplication, processing, distribution or any form of utilisation beyond the scope of copyright law shall require the prior written consent of the author or authors in question.</p>\n" +
-    "<p><strong>Data protection</strong></p>\n" +
-    "<p>A visit to our website can result in the storage on our server of information about the access (date, time, page accessed). This does not represent any analysis of personal data (e.g., name, address or e-mail address). If personal data are collected, this only occurs – to the extent possible – with the prior consent of the user of the website. Any forwarding of the data to third parties without the express consent of the user shall not take place.</p>\n" +
-    "<p>We would like to expressly point out that the transmission of data via the Internet (e.g., by e-mail) can offer security vulnerabilities. It is therefore impossible to safeguard the data completely against access by third parties. We cannot assume any liability for damages arising as a result of such security vulnerabilities.</p>\n" +
-    "<p>The use by third parties of all published contact details for the purpose of advertising is expressly excluded. We reserve the right to take legal steps in the case of the unsolicited sending of advertising information; e.g., by means of spam mail.</p>\n" +
-    "<p>Source: <a href=\"http://www.mustervorlage.net/disclaimer-muster#Englisch\">English Disclaimer on Mustervorlage.net</a></p>\n" +
-    "<p></p>\n" +
+    "	<div class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\">\n" +
+    "		<h3>Disclaimer</h3>\n" +
+    "		<p><strong>Limitation of liability for internal content</strong></p>\n" +
+    "		<p>The content of our website has been compiled with meticulous care and to the best of our knowledge. However, we cannot assume any liability for the up-to-dateness, completeness or accuracy of any of the pages.</p>\n" +
+    "		<p>Pursuant to section 7, para. 1 of the TMG (Telemediengesetz –  Tele Media Act by German law), we as service providers are liable for our own content on these pages in accordance with general laws. However, pursuant to sections 8 to 10 of the TMG, we as service providers are not under obligation to monitor external information provided or stored on our website. Once we have become aware of a specific infringement of the law, we will immediately remove the content in question. Any liability concerning this matter can only be assumed from the point in time at which the infringement becomes known to us.</p>\n" +
+    "		<p><strong>Limitation of liability for external links</strong></p>\n" +
+    "		<p>Our website contains links to the websites of third parties (“external links”). As the content of these websites is not under our control, we cannot assume any liability for such external content. In all cases, the provider of information of the linked websites is liable for the content and accuracy of the information provided. At the point in time when the links were placed, no infringements of the law were recognisable to us. As soon as an infringement of the law becomes known to us, we will immediately remove the link in question.</p>\n" +
+    "		<p><strong>Copyright</strong></p>\n" +
+    "		<p>The content and works published on this website are governed by the copyright laws of Germany. Any duplication, processing, distribution or any form of utilisation beyond the scope of copyright law shall require the prior written consent of the author or authors in question.</p>\n" +
+    "		<p><strong>Data protection</strong></p>\n" +
+    "		<p>A visit to our website can result in the storage on our server of information about the access (date, time, page accessed). This does not represent any analysis of personal data (e.g., name, address or e-mail address). If personal data are collected, this only occurs – to the extent possible – with the prior consent of the user of the website. Any forwarding of the data to third parties without the express consent of the user shall not take place.</p>\n" +
+    "		<p>We would like to expressly point out that the transmission of data via the Internet (e.g., by e-mail) can offer security vulnerabilities. It is therefore impossible to safeguard the data completely against access by third parties. We cannot assume any liability for damages arising as a result of such security vulnerabilities.</p>\n" +
+    "		<p>The use by third parties of all published contact details for the purpose of advertising is expressly excluded. We reserve the right to take legal steps in the case of the unsolicited sending of advertising information; e.g., by means of spam mail.</p>\n" +
+    "		<p>Source: <a href=\"http://www.mustervorlage.net/disclaimer-muster#Englisch\">English Disclaimer on Mustervorlage.net</a></p>\n" +
+    "	</div>\n" +
+    "</div>\n" +
     "<footer ui-view=\"footer\" class=\"clearfix row\"></footer>\n" +
     "");
 }]);
