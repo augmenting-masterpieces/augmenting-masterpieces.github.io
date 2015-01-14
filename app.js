@@ -328,7 +328,7 @@ angular.module("../templates/home.html", []).run(["$templateCache", function($te
     "<section id=\"about\" class=\"row block intermezzo about\">\n" +
     "	<h1 class=\"col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-11 col-sm-offset-1 col-xs-24 col-xs-offset-0\"><span>About</span></h1>\n" +
     "</section>\n" +
-    "<section ui-view=\"about\" class=\"row block people\"></section>\n" +
+    "<section ui-view=\"about\" class=\"row block about\"></section>\n" +
     "<footer ui-view=\"footer\" class=\"clearfix row\"></footer>\n" +
     "");
 }]);
@@ -380,10 +380,15 @@ angular.module("../templates/home/about.html", []).run(["$templateCache", functi
     "	</div>\n" +
     "</div>\n" +
     "<div class=\"col-lg-7 col-lg-offset-2 col-md-8 col-md-offset-1 col-sm-9 col-sm-offset-1 col-xs-24 col-xs-offset-0\" >\n" +
-    "	<h2>Contact</h2>\n" +
+    "	<h2>Partners</h2>\n" +
+    "	<a href=\"http://cdh.uva.nl/\"><img class=\"partners\" src=\"./images/logos/uvalogo.png\">\n" +
+    "	<a href=\"https://www.rijksmuseum.nl/\"><img class=\"partners\" src=\"./images/logos/rijks.png\"></a>\n" +
+    "\n" +
+    "<!-- 	<h2>Contact</h2>\n" +
     "	<p>University of Amsterdam <br>Centre for Digital Humanities<br>Vendelstraat 8<br>1012XX Amsterdam<br>\n" +
     "	<p>barnbeck@uva.nl</p>\n" +
-    "	<br>\n" +
+    "	<br> -->\n" +
+    "\n" +
     "	<h2>Mailing list</h2>\n" +
     "	<!-- Begin MailChimp Signup Form -->\n" +
     "	<div id=\"mc_embed_signup\">\n" +
@@ -409,6 +414,21 @@ angular.module("../templates/home/about.html", []).run(["$templateCache", functi
     "		</form>\n" +
     "	</div>\n" +
     "	<!--End mc_embed_signup-->\n" +
+    "\n" +
+    "	<h2>Private Partners</h2>\n" +
+    "	<div>\n" +
+    "		<a href=\"http://cdh.uva.nl/\"><img class=\"privatePartners\" src=\"./images/logos/logo_uncinc.png\"></a>\n" +
+    "	</div>\n" +
+    "	<div>\n" +
+    "		<a href=\"https://www.rijksmuseum.nl/\"><img class=\"privatePartners\" src=\"./images/logos/screenturner_logo_001.svg\"></a>\n" +
+    "	</div>\n" +
+    "	<div>\n" +
+    "		<a href=\"http://cdh.uva.nl/\"><img class=\"privatePartners\" src=\"./images/logos/resultat-logo-mono-2.png\"></a>\n" +
+    "	</div>\n" +
+    "	<div>\n" +
+    "		<a href=\"http://cdh.uva.nl/\"><img class=\"privatePartners\" src=\"./images/logos/cth-logo.svg\"></a>\n" +
+    "	</div>\n" +
+    "\n" +
     "</div>\n" +
     "\n" +
     "\n" +
