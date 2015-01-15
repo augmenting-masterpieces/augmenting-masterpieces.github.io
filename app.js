@@ -385,39 +385,37 @@ angular.module("../templates/home/about.html", []).run(["$templateCache", functi
     "		<a href=\"https://www.rijksmuseum.nl/\"><img class=\"partners\" src=\"./images/logos/rijks.png\"></a>\n" +
     "	</div>\n" +
     "\n" +
-    "<!-- 	<h2>Contact</h2>\n" +
-    "	<p>University of Amsterdam <br>Centre for Digital Humanities<br>Vendelstraat 8<br>1012XX Amsterdam<br>\n" +
+    "	<h2 class=\"contactheader\">Contact</h2>\n" +
+    "	<!-- <p>University of Amsterdam <br>Centre for Digital Humanities<br>Vendelstraat 8<br>1012XX Amsterdam<br> -->\n" +
     "	<p>barnbeck@uva.nl</p>\n" +
-    "	<br> -->\n" +
-    "	<div class=\"mailcontainer\">\n" +
-    "		<h2>Mailing list</h2>\n" +
-    "		<!-- Begin MailChimp Signup Form -->\n" +
-    "		<div id=\"mc_embed_signup\">\n" +
-    "			<form action=\"//wix.us3.list-manage.com/subscribe/post?u=441ffe1b780f94da8bfedb43c&amp;id=ec4ca8f48f\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n" +
-    "			    <div id=\"mc_embed_signup_scroll\">\n" +
-    "					<h4>Subscribe to our low-traffic mailing list</h4>\n" +
-    "					<div class=\"mc-field-group\">\n" +
-    "						<label for=\"mce-EMAIL\">Email Address</label>\n" +
-    "						<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">\n" +
-    "					</div>\n" +
     "\n" +
-    "					<div id=\"mce-responses\" class=\"clear\">\n" +
-    "						<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n" +
-    "						<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n" +
-    "					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n" +
-    "				    <div style=\"position: absolute; left: -5000px;\">\n" +
-    "				    	<input type=\"text\" name=\"b_441ffe1b780f94da8bfedb43c_ec4ca8f48f\" tabindex=\"-1\" value=\"\">\n" +
-    "				    </div>\n" +
-    "				    <div class=\"clear\">\n" +
-    "				    	<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\">\n" +
-    "				    </div>\n" +
+    "	<h2 class=\"mailheader\">Mailing list</h2>\n" +
+    "	<!-- Begin MailChimp Signup Form -->\n" +
+    "	<div id=\"mc_embed_signup\">\n" +
+    "		<form action=\"//wix.us3.list-manage.com/subscribe/post?u=441ffe1b780f94da8bfedb43c&amp;id=ec4ca8f48f\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n" +
+    "		    <div id=\"mc_embed_signup_scroll\">\n" +
+    "				<h4>Subscribe to our low-traffic mailing list</h4>\n" +
+    "				<div class=\"mc-field-group\">\n" +
+    "					<label for=\"mce-EMAIL\">Email Address</label>\n" +
+    "					<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">\n" +
+    "				</div>\n" +
+    "\n" +
+    "				<div id=\"mce-responses\" class=\"clear\">\n" +
+    "					<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n" +
+    "					<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n" +
+    "				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n" +
+    "			    <div style=\"position: absolute; left: -5000px;\">\n" +
+    "			    	<input type=\"text\" name=\"b_441ffe1b780f94da8bfedb43c_ec4ca8f48f\" tabindex=\"-1\" value=\"\">\n" +
     "			    </div>\n" +
-    "			</form>\n" +
-    "		</div>\n" +
-    "	<!--End mc_embed_signup-->\n" +
+    "			    <div class=\"clear\">\n" +
+    "			    	<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\">\n" +
+    "			    </div>\n" +
+    "		    </div>\n" +
+    "		</form>\n" +
     "	</div>\n" +
+    "	<!--End mc_embed_signup-->\n" +
     "\n" +
-    "	<h2>Private Partners</h2>\n" +
+    "	<h2 class=\"partnerHeader\">Private Partners</h2>\n" +
     "	<div>\n" +
     "		<a href=\"https://www.uncinc.nl/\"><img class=\"privatePartners\" src=\"./images/logos/logo_uncinc.png\"></a>\n" +
     "	</div>\n" +
@@ -425,7 +423,7 @@ angular.module("../templates/home/about.html", []).run(["$templateCache", functi
     "		<a href=\"http://screenturner.nl/\"><img class=\"privatePartners\" src=\"./images/logos/screenturner_logo_001.svg\"></a>\n" +
     "	</div>\n" +
     "	<div>\n" +
-    "		<a href=\"http://www.resultat.nl/\"><img class=\"privatePartners\" src=\"./images/logos/resultat-logo-mono-2.png\"></a>\n" +
+    "		<a href=\"http://www.resultat.nl/\"><img class=\"privatePartners\" src=\"./images/logos/resultat-logo-mono-2dark.png\"></a>\n" +
     "	</div>\n" +
     "	<div>\n" +
     "		<a href=\"http://codingthehumanities.com/\"><img class=\"privatePartners\" src=\"./images/logos/cth-logo.svg\"></a>\n" +
